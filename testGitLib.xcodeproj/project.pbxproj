@@ -13,6 +13,7 @@
 		EFCDD5151ECD513300ABDFA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCDD5131ECD513300ABDFA2 /* Main.storyboard */; };
 		EFCDD5171ECD513300ABDFA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCDD5161ECD513300ABDFA2 /* Assets.xcassets */; };
 		EFCDD51A1ECD513300ABDFA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCDD5181ECD513300ABDFA2 /* LaunchScreen.storyboard */; };
+		EFCDD5271ECD709500ABDFA2 /* WLtestLib.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCDD5261ECD709500ABDFA2 /* WLtestLib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EFCDD5161ECD513300ABDFA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFCDD5191ECD513300ABDFA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFCDD51B1ECD513300ABDFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCDD5251ECD709500ABDFA2 /* WLtestLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLtestLib.h; sourceTree = "<group>"; };
+		EFCDD5261ECD709500ABDFA2 /* WLtestLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLtestLib.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				EFCDD5091ECD513300ABDFA2 /* testGitLib */,
-				EFCDD5081ECD513300ABDFA2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,11 +55,13 @@
 				EFCDD5071ECD513300ABDFA2 /* testGitLib.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		EFCDD5091ECD513300ABDFA2 /* testGitLib */ = {
 			isa = PBXGroup;
 			children = (
+				EFCDD5241ECD709500ABDFA2 /* class */,
 				EFCDD50D1ECD513300ABDFA2 /* AppDelegate.h */,
 				EFCDD50E1ECD513300ABDFA2 /* AppDelegate.m */,
 				EFCDD5101ECD513300ABDFA2 /* ViewController.h */,
@@ -66,6 +70,7 @@
 				EFCDD5161ECD513300ABDFA2 /* Assets.xcassets */,
 				EFCDD5181ECD513300ABDFA2 /* LaunchScreen.storyboard */,
 				EFCDD51B1ECD513300ABDFA2 /* Info.plist */,
+				EFCDD5081ECD513300ABDFA2 /* Products */,
 				EFCDD50A1ECD513300ABDFA2 /* Supporting Files */,
 			);
 			path = testGitLib;
@@ -77,6 +82,15 @@
 				EFCDD50B1ECD513300ABDFA2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFCDD5241ECD709500ABDFA2 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				EFCDD5251ECD709500ABDFA2 /* WLtestLib.h */,
+				EFCDD5261ECD709500ABDFA2 /* WLtestLib.m */,
+			);
+			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFCDD5271ECD709500ABDFA2 /* WLtestLib.m in Sources */,
 				EFCDD5121ECD513300ABDFA2 /* ViewController.m in Sources */,
 				EFCDD50F1ECD513300ABDFA2 /* AppDelegate.m in Sources */,
 				EFCDD50C1ECD513300ABDFA2 /* main.m in Sources */,
@@ -310,6 +325,7 @@
 				EFCDD5201ECD513300ABDFA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

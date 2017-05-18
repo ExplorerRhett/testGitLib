@@ -13,4 +13,7 @@
 {
     NSLog(@"this is a test!!");
 }
+-(void)testAlertView{
+    NSLog(@"this is a AlertView!!");
+}
 @end
